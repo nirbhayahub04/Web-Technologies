@@ -1,0 +1,103 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Sevillana&display=swap');
+img{
+    max-width: 100%;
+    height: auto;
+}
+.p1{
+    font-size: 30px;
+    background-color: aqua;
+    color: antiquewhite;
+    font-family: 'Sevillana', cursive;
+}
+#p2{
+    font-size: 30px;
+    background-color: rgb(101, 59, 255);
+    color: antiquewhite;
+    font-family: 'Sevillana', cursive;
+}
+#p3{
+    font-size: 30px;
+    background-color: rgb(53, 253, 3);
+    color: rgb(255, 231, 231);
+    font-family: 'Sevillana', cursive;
+}
+
+@media only  screen and (min-width:769px) and (max-width:1024px){
+    img{
+    max-width: 100%;
+    height: auto;
+    font-family: 'Sevillana', cursive;
+}
+.p1{
+    font-size: 30px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-family: 'Sevillana', cursive;
+}
+#p2{
+    font-size: 30px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-family: 'Sevillana', cursive;
+}
+#p3{
+    font-size: 30px;
+    background-color: aqua;
+    color: rgb(0, 0, 0);
+    font-family: 'Sevillana', cursive;
+}
+
+}
+@media only  screen and (min-width:481px) and (max-width:768px)
+{img{
+    max-width: 100%;
+    height: auto;
+}
+.p1{
+    font-size: 30px;
+    background-color: rgb(101, 59, 255);
+    color: antiquewhite;
+    font-family: 'Sevillana', cursive;
+
+}
+#p2{
+    font-size: 30px;
+    background-color: rgb(101, 59, 255);
+    color: antiquewhite;
+    font-family: 'Sevillana', cursive;
+}
+#p3{
+    font-size: 30px;
+    background-color:rgb(101, 59, 255);
+    color: rgb(255, 231, 231);
+    font-family: 'Sevillana', cursive;
+}
+    
+}
+@media only  screen and (min-width:320px) and (max-width:482px){
+    img{
+    max-width: 100%;
+    height: auto;
+}
+.p1{
+    font-size: 30px;
+    background-color: rgb(53, 253, 3);
+    color: antiquewhite;
+    font-family: 'Sevillana', cursive;
+
+}
+#p2{
+    font-size: 30px;
+    background-color: rgb(53, 253, 3);
+    color: antiquewhite;
+    font-family: 'Sevillana', cursive;
+}
+#p3{
+    font-size: 30px;
+    background-color: rgb(53, 253, 3);
+    color: rgb(255, 231, 231);
+    font-family: 'Sevillana', cursive;
+}
+    
+}

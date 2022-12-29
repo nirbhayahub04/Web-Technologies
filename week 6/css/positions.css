@@ -1,0 +1,38 @@
+.container{
+    border: 10px solid;
+    width: 1025px;
+    height: 1025px;
+    border-color: aqua;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-radius: 2px;
+}
+.purple{
+    background: rgb(166, 65, 248);
+    position: relative;
+    
+    right: 0px;
+    left: 200px;
+
+}
+.red{
+    background: rgb(255, 35, 35);
+    position: absolute;
+   
+}
+.black{
+    background: rgb(227, 252, 0);
+    position: fixed;
+    right: 0px;
+    left: 200px;
+}
+.green{
+    background: rgb(39, 255, 57);
+    position: -webkit-sticky;
+    position: sticky; 
+    right: 0px;
+    left: 400px;
+}
